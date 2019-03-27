@@ -1,0 +1,17 @@
+//Question
+//Very simple, given a number, find its opposite.
+
+
+//my solution
+function opposite(number) {
+    if(number){
+    return (-number);
+    } else {
+      return 0;
+      }
+  }
+  
+  //Best Practice
+  function opposite(number) {
+  return(-number);
+}
